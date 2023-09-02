@@ -2,9 +2,9 @@ __pycache__/
 
 # Allow files
 !README.md
+!htmlcov
 
 # Unit test / coverage reports
-htmlcov/
 .tox/
 .nox/
 .coverage
