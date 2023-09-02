@@ -3,6 +3,7 @@ __pycache__/
 # Allow files
 !README.md
 !htmlcov
+!config.env
 
 # Unit test / coverage reports
 .tox/
