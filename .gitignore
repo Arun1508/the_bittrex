@@ -1,5 +1,8 @@
 __pycache__/
 
+# Allow files
+!README.md
+
 # Unit test / coverage reports
 htmlcov/
 .tox/

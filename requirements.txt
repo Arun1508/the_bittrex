@@ -1,0 +1,4 @@
+aiohttp==3.8.5
+fastapi==0.103.0
+pre-commit
+uvicorn[standard]==0.23.2
