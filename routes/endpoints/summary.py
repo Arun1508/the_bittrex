@@ -8,8 +8,13 @@ from model.summary import SummaryResponse
 route = APIRouter()
 
 
-@route.get("/summary", response_model=SummaryResponse)
-async def summary():
+@route.get("/summary")
+async def summary() -> SummaryResponse:
+    """
+    Get all active market details.
+    Args: None
+    Return: Summary Response class object.
+    """
     url = os.environ.get("SUMMARY_URL")
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
