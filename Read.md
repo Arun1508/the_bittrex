@@ -32,7 +32,7 @@ This will run a uvicorn server on `0.0.0.0:8001`. For open API documentation [cl
 
 ## Install pytest
 
-Have implemented untesting for the existing to APIs. In order to execute them install test requirements.txt
+Have implemented testing for the existing to APIs. In order to execute them install test requirements.txt
 
 ``` bash
 pip install -r tests/requirements.txt
@@ -41,13 +41,13 @@ pip install -r tests/requirements.txt
 
 ## Run pytest
 
-To excute unit testing run following commands
+To excute unit test run following commands
 
 ``` bash
 python3 -m pytest -s
 ```
 
-Then create code coverage html by running below command
+Then to create code coverage html response, run below command
 
 ``` bash
 coverage html
